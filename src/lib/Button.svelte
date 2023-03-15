@@ -3,11 +3,8 @@
 </script>
 
 <!-- markup (zero or more items) goes here -->
-<button class="cowabunga-btn">Cowabunga</button>
+<button class="cowa-btn">Cowabunga</button>
 
-<style>
-  .cowabunga-btn {
-    padding: 12px 24px;
-    border-radius: 24px;
-  }
+<style lang="scss">
+  @use "./scss/button";
 </style>
